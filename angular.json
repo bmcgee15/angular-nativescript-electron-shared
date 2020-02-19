@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -45,6 +45,7 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
+              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -127,6 +128,6 @@
   },
   "defaultProject": "cross-platform",
   "cli": {
-    "analytics": "2566ca3f-2fcb-40c1-b8e3-dd57cddde446"
+    "defaultCollection": "@nativescript/schematics"
   }
 }
